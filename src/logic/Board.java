@@ -75,7 +75,7 @@ public class Board extends JPanel implements MouseListener {
             }
         }
 
-        // Initiate the components in the panel
+        // Initiate the components
         initComponents();
 
         // Panel properties
