@@ -67,7 +67,7 @@ public class Board extends JPanel implements MouseListener {
 
                 // Set every tile covered
                 covered[j][i] = true;
-                // Set every tile's value to 0 (for now)
+                // Set every tile's value to 0
                 board[j][i] = 0;
                 // Set every tile to unchecked
                 checked[j][i] = false;
