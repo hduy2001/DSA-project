@@ -33,7 +33,7 @@ public class Gui extends JFrame implements ActionListener {
 
             // Switch panels
             switchPanels(new MainMenuPanel());
-            // Adds Action Listeners to button components
+            
             MainMenuPanel.easyButton.addActionListener(this);
             MainMenuPanel.normalButton.addActionListener(this);
             MainMenuPanel.hardButton.addActionListener(this);
