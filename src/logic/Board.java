@@ -25,8 +25,7 @@ public class Board extends JPanel implements MouseListener {
     private boolean covered[][]; // Contains if a certain cell is covered or uncovered
     private boolean checked[][]; // Contains if a cell has been checked or not (used only for method: checkAdjacentCells)
 
-    // Timer Variables
-    private int seconds; // Integer variable that holds the amount of time passed
+ 
     private Timer timer; // Timer object
     private TimerTask timerTask; // TimerTask object
 
