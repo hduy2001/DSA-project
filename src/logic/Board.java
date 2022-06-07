@@ -14,7 +14,7 @@ import java.util.logging.Level;
 public class Board extends JPanel implements MouseListener {
 
     // Game Variables
-    private final int TILE_SIZE = 30; 
+    private final int TILE_SIZE = 30; //Holds the size of each tile in pixels
     private final int EMPTY_TILE = 0; // Represents the value of an empty tile
     private final int FLAG = 10; // Represents the value of a flagged tile
     private final int MINE = 9; // Represents the value of a mine
