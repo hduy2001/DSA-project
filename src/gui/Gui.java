@@ -23,7 +23,7 @@ public class Gui extends JFrame implements ActionListener {
         MainMenuPanel.easyButton.addActionListener(this);
         MainMenuPanel.normalButton.addActionListener(this);
         MainMenuPanel.hardButton.addActionListener(this);
-        this.setVisible(true);  // Makes the JFrame visible to the user
+        this.setVisible(true);
 
     }
 
