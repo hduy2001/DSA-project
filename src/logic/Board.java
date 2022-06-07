@@ -29,7 +29,7 @@ public class Board extends JPanel implements MouseListener {
     private boolean noMinesLeft = false; // Boolean flag that represents if no mines are remaining
     private boolean noCoveredTilesLeft = false; // Boolean flag that represents if there are no covered tiles left
     public boolean gameLost = false; // Boolean flag that triggers whenever a user hits a mine
-    private boolean firstClick = false; // Boolean flag that triggers when the user makes a first click (First Click -> Place Mines)
+    private boolean firstClick = false; // Boolean flag that triggers when the user makes a first click
 
     // Misc. Variables
     private final int NUM_IMAGES = 14; // Holds the amount of images
