@@ -91,7 +91,6 @@ public class Gui extends JFrame implements ActionListener {
             if (opt == 0){
                 // Switch panels
                 switchPanels(new MainMenuPanel());
-                // Adds Action Listeners to button components
                 MainMenuPanel.easyButton.addActionListener(this);
                 MainMenuPanel.normalButton.addActionListener(this);
                 MainMenuPanel.hardButton.addActionListener(this);
@@ -107,7 +106,7 @@ public class Gui extends JFrame implements ActionListener {
         // Add the new panel
         this.add(addPanel);
 
-        // Pack the contents and repaint the GUI
+        
         this.pack();
         this.repaint();
 
