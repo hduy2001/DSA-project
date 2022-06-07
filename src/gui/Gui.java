@@ -16,7 +16,7 @@ public class Gui extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setIconImage(new ImageIcon(getClass().getResource("/images/" + new Random().nextInt(13) + ".png")).getImage());
         this.add(new MainMenuPanel());  // Adds the panel containing the main menu to the JFrame
-        this.pack();  
+        this.pack();  // Sets every component to their preferred size.
         this.setLocationRelativeTo(null);  // Put's the JFrame at the center of the user's screen
 
         // Adds Action Listeners to button components
