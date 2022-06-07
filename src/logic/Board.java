@@ -32,7 +32,7 @@ public class Board extends JPanel implements MouseListener {
     private boolean firstClick = false; // Boolean flag that triggers when the user makes a first click (First Click -> Place Mines)
 
     // Misc. Variables
-    private final int NUM_IMAGES = 14; // Holds the amount of images in the image folder
+    private final int NUM_IMAGES = 14; // Holds the amount of images
     private final ImageIcon[] images = initImages(); // An array that holds all the images in the image folder
     private final int BAR_HEIGHT = 40; // The height of the GUI bar at the top of the screen (in pixels)
     boolean repaint = true;  // Flags if the paint component should repaint itself
