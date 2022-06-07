@@ -25,10 +25,6 @@ public class Board extends JPanel implements MouseListener {
     private boolean covered[][]; // Contains if a certain cell is covered or uncovered
     private boolean checked[][]; // Contains if a cell has been checked or not (used only for method: checkAdjacentCells)
 
- 
-    private Timer timer; // Timer object
-    private TimerTask timerTask; // TimerTask object
-
     // Game Flags
     private boolean noMinesLeft = false; // Boolean flag that represents if no mines are remaining
     private boolean noCoveredTilesLeft = false; // Boolean flag that represents if there are no covered tiles left (excludes flagged mine tiles)
