@@ -19,8 +19,7 @@ public class Board extends JPanel implements MouseListener {
     private final int FLAG = 10; // Represents the value of a flagged tile
     private final int MINE = 9; // Represents the value of a mine
     private int flagsLeft; // Holds the amount of flags the user has available
-    private int mouseX, mouseY; // Holds the user's mouse X and Y coordinates whenever they click
-
+    private int mouseX, mouseY; 
     // Arrays
     private int board[][]; // Contains the location of every mine and each tile's respective numeric value
     private boolean covered[][]; // Contains if a certain cell is covered or uncovered
