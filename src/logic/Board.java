@@ -218,7 +218,7 @@ public class Board extends JPanel implements MouseListener {
     }
 
     /*
-     * Runs whenever a mouse is clicked Return type: returns nothing (void)
+     * Runs whenever a mouse is clicked Return type: returns nothing
      * Return type: Returns nothing (void)
      * @param e: the mouse event
      */
