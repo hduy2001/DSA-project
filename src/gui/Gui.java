@@ -11,7 +11,7 @@ public class Gui extends JFrame implements ActionListener {
     public static int numRows, numColumns, numMines;
 
     public Gui() {
-        this.setTitle("Minesweeper");  // Sets the title of the JFrame
+        this.setTitle("Minesweeper");
         this.setResizable(false);  // Makes sure the user can't resize the JFrame
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setIconImage(new ImageIcon(getClass().getResource("/images/" + new Random().nextInt(13) + ".png")).getImage());
