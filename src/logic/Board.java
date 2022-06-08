@@ -55,7 +55,7 @@ public class Board extends JPanel implements MouseListener {
 
         // Set the remaining amount of flags to the amount of mines
         flagsLeft = Gui.numMines;
-
+        
         // Set the size of the arrays
         covered = new boolean[Gui.numRows][Gui.numColumns];
         board = new int[Gui.numRows][Gui.numColumns];
