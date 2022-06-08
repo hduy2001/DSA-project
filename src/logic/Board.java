@@ -96,7 +96,7 @@ public class Board extends JPanel implements MouseListener {
      * nothing (void)
      *
      * @param g: the graphics object
-     */
+    
     @Override
     public void paint(Graphics g) {
 
