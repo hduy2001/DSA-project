@@ -26,7 +26,7 @@ public class Board extends JPanel implements MouseListener {
     private boolean checked[][]; // Contains if a cell has been checked or not (used only for method: checkAdjacentCells)
 
     // Game Flags
-    private boolean noMinesLeft = false; // Boolean flag that represents if no mines are remaining
+    private boolean noMinesLeft = false; 
     private boolean noCoveredTilesLeft = false; // Boolean flag that represents if there are no covered tiles left
     public boolean gameLost = false; // Boolean flag that triggers whenever a user hits a mine
     private boolean firstClick = false; // Boolean flag that triggers when the user makes a first click
