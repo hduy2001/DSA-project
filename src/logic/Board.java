@@ -305,12 +305,6 @@ public class Board extends JPanel implements MouseListener {
         // TODO
     }
 
-    /*
-     * Initializes the board array Return type: Returns a 2D integer array (int[][])
-     * @param rows: the amount of rows in the game
-     * @param columns: the amount of columns in the game
-     * @param mines: the amount of mines in the game
-     */
     public int[][] initBoard(int rows, int columns, int mines) {
 
         // Create a new 2D integer array
