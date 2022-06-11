@@ -99,14 +99,9 @@ public class Gui extends JFrame implements ActionListener {
     }
 
     public void switchPanels(JPanel addPanel) {
-
         this.getContentPane().removeAll();
-
         this.add(addPanel);
-
-        
         this.pack();
         this.repaint();
-
     }
 }
