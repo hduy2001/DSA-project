@@ -27,7 +27,7 @@ public class MainMenuPanel extends JPanel {
         initComponents();
 
         // Panel Properties
-        this.setPreferredSize(new Dimension(WIDTH, HEIGHT));  // Sets the preferred size of the JPanel
+        this.setPreferredSize(new Dimension(WIDTH, HEIGHT));  
         this.setBackground(Color.GRAY);  // Sets the background color to gray
         this.setLayout(new BorderLayout());  // Sets the border layout for the panel
 
