@@ -40,7 +40,7 @@ public class Board extends JPanel implements MouseListener {
     // Private Component Declarations
     private JPanel topBar;
     private JPanel game;
-    private JLabel flagLabel, timeLabel;
+    private JLabel flagLabel;
     private JLabel gameStatusLabel;
 
     // Public Component Declarations
