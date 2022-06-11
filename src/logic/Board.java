@@ -48,9 +48,7 @@ public class Board extends JPanel implements MouseListener {
     public static JButton levelButton;
 
     private java.util.Map<String, Image> image;
-    /*
-     * JPanel Constructor
-     */
+    
     public Board() {
 
         // Set the remaining amount of flags to the amount of mines
