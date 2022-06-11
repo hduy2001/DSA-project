@@ -7,7 +7,6 @@ import java.awt.*;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
 import java.util.Random;
-import java.util.TimerTask;
 import java.util.logging.Level;
 
 public class Board extends JPanel implements MouseListener {
