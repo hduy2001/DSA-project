@@ -100,7 +100,6 @@ public class Gui extends JFrame implements ActionListener {
 
     public void switchPanels(JPanel addPanel) {
 
-        // Remove all components
         this.getContentPane().removeAll();
 
         // Add the new panel
