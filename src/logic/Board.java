@@ -418,10 +418,7 @@ public class Board extends JPanel implements MouseListener {
         return field;
 
     }
-
-    /*
-     * Initates all components in the game panel Return type: Returns nothing (void)
-     */
+    
     public void initComponents() {
 
         // Panels
